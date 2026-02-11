@@ -10,6 +10,21 @@
         <link rel="stylesheet" href="style.css">
     </head>
     <body>
+        <!-- MENU BURGER -->
+    <div class="menu-toggle" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- MENU -->
+    <nav class="menu">
+        <ul>
+            <li><a href="#">Projet</a></li>
+            <li><a href="#">Info</a></li>
+        </ul>
+    </nav>
+        
          <h3>Lien vers mon book</h3>
         <a href="https://donatellacoppola06-oss.github.io/Dona/index.html">Ma page GitHub</a>
     <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
@@ -40,6 +55,15 @@
 </body>
 </html>
 
+<!-- SCRIPT MENU -->
+    <script>
+        function toggleMenu() {
+            document.querySelector(".menu").classList.toggle("active");
+        }
+    </script>
+
+</body>
+</html>
 
 
 
