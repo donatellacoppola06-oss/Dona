@@ -15,7 +15,7 @@ body{
 .hero{
     height: 100vh; 
     display: flex;
-    align-items: center; /* centre verticalement */
+    align-items: center; 
     padding-left: 8%;
 }
 
