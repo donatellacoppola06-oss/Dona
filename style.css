@@ -20,7 +20,7 @@ body{
 }
 
 .hero-text h1{
-    font-size: 300rem; /* prénom très grand */
+    font-size: 200rem; /* prénom très grand */
     font-weight: bold;
 }
 
@@ -31,20 +31,26 @@ body{
     letter-spacing: 5px;
 }
 
+
 /* SECTION ABOUT */
 .about{
     min-height: 100vh;
-    padding: 100px 8%;
+    display: flex;
+    align-items: center;   
+    padding-left: 8%;      
+}
+
+.about-content{
+    max-width: 500px;      
 }
 
 .about h3{
     font-size: 2rem;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
 }
 
 .about p{
-    max-width: 700px;
     line-height: 1.8;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 1.1rem;
 }
