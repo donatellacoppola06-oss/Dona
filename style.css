@@ -20,12 +20,12 @@ body{
 }
 
 .hero-text h1{
-    font-size: 200rem; /* prénom très grand */
+    font-size: 50rem; /* prénom très grand */
     font-weight: bold;
 }
 
 .hero-text h2{
-    font-size: 50rem;
+    font-size: 2rem;
     font-weight: 300;
     margin-top: 10px;
     letter-spacing: 5px;
