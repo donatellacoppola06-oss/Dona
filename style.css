@@ -1,15 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
 body{
-  background-color:black;
+    background-color: black;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-p{
-  color:white;
-  text-align : center;
-}
-h1{
-  color:white;
+
+.hero{
+    height: 100vh; 
+    display: flex;
+    align-items: center; /* centre verticalement */
+    padding-left: 8%;
 }
 
-h2{
-  color:white;
+.hero-text h1{
+    font-size: 300rem; /* prénom très grand */
+    font-weight: bold;
+}
+
+.hero-text h2{
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: 10px;
+    letter-spacing: 5px;
+}
+
+/* SECTION ABOUT */
+.about{
+    min-height: 100vh;
+    padding: 100px 8%;
+}
+
+.about h3{
+    font-size: 2rem;
+    margin-bottom: 30px;
+}
+
+.about p{
+    max-width: 700px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    font-size: 1.1rem;
 }
