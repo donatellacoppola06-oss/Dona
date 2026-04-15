@@ -62,9 +62,28 @@ a {
     transition: all 0.3s ease;
 }
 
-/* effet bouton au hover */
-a:hover {
-    background: white;
-    color: black;
-    cursor: pointer;
+.project-item {
+    border: 1px solid white;
+    height: 150px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+
+    color: white;
+    text-decoration: none;
+
+    transition: background 0.3s ease, color 0.3s ease;
+}
+
+.project-item:hover {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.project-item:hover span {
+    color: #000000;
 }
