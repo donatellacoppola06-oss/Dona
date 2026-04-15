@@ -53,3 +53,18 @@ body{
     font-size: 14px;
     color: #ccc;
 }
+a {
+    color: white;
+    text-decoration: none;
+    border: 1px solid white;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: all 0.3s ease;
+}
+
+/* effet bouton au hover */
+a:hover {
+    background: white;
+    color: black;
+    cursor: pointer;
+}
