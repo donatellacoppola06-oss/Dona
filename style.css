@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth; /* scroll fluide pour le lien vers l’image */
+}
+
 body{
     margin: 0;
     font-family: Arial, sans-serif;
@@ -12,7 +16,7 @@ body{
     background-image: radial-gradient(black 40px, transparent 40px);
     background-size: 60px 60px;
 
-    color: white; /* texte blanc */
+    color: white; /* texte blanc global */
 }
 
 /* HERO */
@@ -82,4 +86,16 @@ a {
 
 .project-item:hover span {
     color: #000000;
+}
+
+/* IMAGE ANCRÉE (projet 1) */
+#affiche {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#affiche img {
+    box-shadow: 0 20px 50px rgba(0,0,0,0.4);
 }
